@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+/*HTML TAG EDITS*/
+
+body{
+    color: #fff;
+    box-sizing: border-box;
+    background-color:hsl(233, 47%, 7%);
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    
+}
+b{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 0%;
+}
+img{
+    border-radius: 8px;
+    width: 100%;
+}
+/*ENDS HERE*/
+
+/*DIV EDITS*/
+
+.container{
+    border-radius: 8px;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    justify-content: space-between;
+    border: 12px;
+    margin: 7em 3em 8em 3em;
+   
+}
+.contain{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 170px;
+}
+
+.highlight{
+    color: hsl(277, 64%, 61%);
+}
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.paragraph{
+    margin-top:3px
+}
+.number{
+    margin-right: 50px;
+}
+
+/*ENDS HERE*/
+
+  
