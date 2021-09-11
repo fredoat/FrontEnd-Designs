@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: #fff;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    margin-left: 170px;
+}
+.contain{
+   justify-content: left;
+   padding: 70px;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.lux{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.orange{
+    color: hsl(31, 77%, 52%);
+}
+.cyan{
+    color:hsl(184, 100%, 22%) ;
+}
+.darkcyan{
+    color: hsl(179, 100%, 13%);
+}
+
+@media  (max-width: 1250px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400vh;
+        margin-left: auto;
+    }
+    .lux{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .sedans{
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
