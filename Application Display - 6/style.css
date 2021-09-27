@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
+  
+    min-height: 80vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container > div{
+    flex: 1;
+    padding: 0 20px;
+}
+footer{
+    display: flex;
+justify-content: center;
+}
+h1{
+    font-size: 40px;
+    line-height:50px
+}
+p{
+    font-size: 15px;
+    opacity: 0.8;
+}
+.box{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.box-purple{
+    background-color:  hsl(248, 32%, 49%);
+    padding:20px;
+}
+.box p{
+    margin: 0;
+}
+input{
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1.3px solid hsl(246, 25%, 77%);
+    font-family: 'Poppins', sans-serif;
+}
+input:focus{
+    border: 1.3px solid hsl(248, 32%, 49%);
+    outline: none;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid hsl(154, 59%, 45%);
+    box-shadow: 0 2px hsl(154, 59%, 45%) ;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    transition: transform 0.2 ease;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+box-shadow: 0 0  hsl(154, 59%, 45%);;
+transform: translateY(2px);
+}
+small{
+    color: #bbb;
+    font-size: 11px;
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+}
+small a{
+    color: hsl(0, 100%, 74%) ;
+    text-decoration: none;
+    font-weight: 600;
+}
+.form-control small{
+color: hsl(0, 100%, 74%) ;
+font-weight: 600;
+text-align: right;
+position: absolute;
+bottom: -24px;
+right: 0;
+opacity: 0;
+}
+.form-control{
+    margin-bottom: 30px;
+    position: relative;
+}
+@media (max-width:800px){
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
